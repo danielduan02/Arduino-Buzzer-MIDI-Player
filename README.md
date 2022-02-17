@@ -8,6 +8,9 @@ Features:
   - Only able to play one note at a time.
   - Able to handle chords and multiple voices by prefering the highest note, which tends to be the melody for most pieces.
 
+Programming Language Used:
+  - C++
+
 Components used:
   - Arduino UNO R3
   - LCD1602 Module
@@ -16,17 +19,18 @@ Components used:
   - Red 5mm LED
   - 330 Ohm Resistor
   - Jumper Wires
-  - Breadboard
+  - Solderless Breadboard
 
 Software used:
-  - [The Hairless MIDI <-> Serial Bridge](https://projectgus.github.io/hairless-midiserial/)
-  - [MidiEditor](https://www.midieditor.org/)
-  - [Virutal MIDI Piano Keyboard](https://vmpk.sourceforge.io/)
-  - [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html)
+  - Arduino IDE 1.8.19
+  - [The Hairless MIDI <-> Serial Bridge v0.4](https://projectgus.github.io/hairless-midiserial/)
+  - [MidiEditor v3.3.0](https://www.midieditor.org/)
+  - [Virutal MIDI Piano Keyboard v0.8.6](https://vmpk.sourceforge.io/)
+  - [loopMIDI v1.0.16](https://www.tobias-erichsen.de/software/loopmidi.html)
 
 Required Libraries:
-  - [Arduino MIDI Library](https://github.com/FortySevenEffects/arduino_midi_library)
-  - Arduino LiquidCrystal Library
+  - [Arduino MIDI Library v5.02](https://github.com/FortySevenEffects/arduino_midi_library)
+  - Arduino LiquidCrystal Library v1.07
 
 
 Demonstration with Beethoven's Moonlight Sonata 3rd Movement: https://youtu.be/twwLpDgBtcI
