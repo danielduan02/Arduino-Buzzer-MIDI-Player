@@ -3,7 +3,7 @@ A buzzer controlled using an Arduino microcontroller board that can play any mus
 
 Features:
   - Recieves MIDI serially from any MIDI software.
-  - Uses LCD monitor to report note frequency and MIDI pitch for debugging purposes (serial monitor is unavailable during operation).
+  - Uses LCD monitor to report note frequency and MIDI pitch for debugging purposes.
   - Uses a potentiometer to adjust volume of the buzzer.
   - Able to play one note at a time.
   - Able to handle chords and multiple voices by prefering the highest note, which tends to be the melody for most pieces.
