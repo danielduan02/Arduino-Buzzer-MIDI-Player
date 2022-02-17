@@ -1,9 +1,9 @@
 # Arduino-Buzzer-MIDI-Player
-A buzzer controlled using an Arduino that can play any music provided the MIDI file for it exists.
+A buzzer controlled using an Arduino microcontroller board that can play any music provided the MIDI file exist. The MIDI file is played by a MIDI software (such as MidiEditor or Synthesia), which can be outputted and transmitted serially to the Arduino via the USB cable. By reading the MIDI bytes recieved, the Arduino controls when to turn on or turn off the buzzer, as well as the frequency of the tone to play the desired pitch.
 
 Features:
   - Recieves MIDI serially from any MIDI software.
-  - Uses LCD monitor to report note frequency and MIDI pitch for debugging purposes.
+  - Uses LCD monitor to report note frequency and MIDI pitch for debugging purposes (serial monitor is unavailable during operation).
   - Uses a potentiometer to adjust volume of the buzzer.
   - Able to play one note at a time.
   - Able to handle chords and multiple voices by prefering the highest note, which tends to be the melody for most pieces.
