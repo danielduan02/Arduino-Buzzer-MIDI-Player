@@ -22,7 +22,7 @@ Software used:
   - [The Hairless MIDI <-> Serial Bridge](https://projectgus.github.io/hairless-midiserial/)
   - [MidiEditor](https://www.midieditor.org/)
   - [Virutal MIDI Piano Keyboard](https://vmpk.sourceforge.io/)
-  - [LoopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html)
+  - [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html)
 
 Required Libraries:
   - [Arduino MIDI Library](https://github.com/FortySevenEffects/arduino_midi_library)
