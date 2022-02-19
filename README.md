@@ -32,5 +32,3 @@ Required Libraries:
   - [Arduino MIDI Library v5.02](https://github.com/FortySevenEffects/arduino_midi_library)
   - Arduino LiquidCrystal Library v1.07
 
-
-Demonstration with Beethoven's Moonlight Sonata 3rd Movement: https://youtu.be/twwLpDgBtcI
